@@ -30,7 +30,7 @@ const Login = () => {
                     style={styles.input}
                 />
                 <View style={{paddingTop:20}}>
-                    <Button variant="outlined" title="Login" color="#fff" />
+                    <Button variant="outlined" title="Login" color="#fff" onPress={()=>{navigation.navigate('Home')}}/>
                 </View>
             </Stack>
             <View style={{paddingTop:20}}>
